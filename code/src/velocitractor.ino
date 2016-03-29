@@ -46,13 +46,13 @@ void loop(void)
 }
 
 void front() {
-    servo1.write(95);
+    servo1.write(91);
     analogWrite(D8, 1024);
     digitalWrite(D7, 1);
 }
 
 void back() {
-    servo1.write(95);
+    servo1.write(91);
     analogWrite(D8, 1024);
     digitalWrite(D7, 0);
 }
@@ -64,13 +64,13 @@ void right() {
 }
 
 void left() {
-    servo1.write(78);
+    servo1.write(77);
     analogWrite(D8, 1024);
     digitalWrite(D7, 1);
 }
 
 void halt() {
-    servo1.write(95);
+    servo1.write(91);
     analogWrite(D8, 0);
 }
 
